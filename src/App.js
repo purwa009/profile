@@ -23,13 +23,13 @@ return (
           type="text"
           value={textInput}
           onChange={(e) => setTextInput(e.target.value)}
-          placeholder="Masukkan Nama!"
+          placeholder="Masukkan Namamu!"
           className="input-box"
         />
       </div>
       <div>
         <button onClick={handleChange} className="generate-btn">
-          Buat Profil Picture!
+          <b>Buat Profil Picture!</b>
         </button>
       </div>
       {avatarUrl && (
